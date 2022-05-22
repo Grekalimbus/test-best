@@ -1,6 +1,13 @@
+body {
+	background-color: rgba(14, 222, 222, 0.316);
+}
 .frama{
+	background-color: coral;
 	margin: 150px 0 0 150px;
 	border: 1px solid #000;
 	width: 300px;
+}
+p {rgb(190, 130, 0)
+	color: rgb(190, 0, 0);
 }
 
