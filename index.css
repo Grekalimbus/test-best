@@ -1,1 +1,19 @@
+body {
+	background: #2B0202;
+	
+}
+.сontainer{
+	max-width: 624px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	padding: 38px 0 0 0;
+}
+
+.title__body{
+	text-align: center;
+	font-size: 48px;
+	line-height: 58px;
+	color: #EB8D01;
+}
+.image{}
 
