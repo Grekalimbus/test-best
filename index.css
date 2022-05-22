@@ -40,8 +40,7 @@ body {
 .сontainer{
 	max-width: 624px;
 	margin: 0 auto;
-	border: 1px solid #000;
-	padding: 38px 0 0 0;
+	padding: 38px 0 50px 0;
 }
 
 .title__body{
@@ -50,33 +49,51 @@ body {
 	line-height: 58px;
 	color: #EB8D01;
 }
-.image{}
+.image{
+	margin-top: 50px;
+}
 
 .spisok{
 	font-size: 24px;
 	line-height: 29px;
 	color: #17D913;
 	padding: 35px 0 0 0px;
-	border: 1px solid #000;
-		
+			
 }
 
 .spisok li{
-	border: 1px solid #000;
-	background: url(img/les.png) left no-repeat;
-	padding: 60px 0px 25px 80px;
-	margin-bottom: 30px;
-}
-
-/*
-.spisok li:last-child{
-	padding: 0;
-}
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+	}
 
 .spisok li::before{
 	content: url(img/les.png);
-	border: 1px solid #000;
+	padding: 0 15px 0 0;
+}
+
+.klik{
+	display: block;
+	width: 346px;
+	height: 94px;
+	background: #088759;
+	border-radius: 80px;
+	margin: 0 auto;
+	margin-top: 65px;
 	
 }
+.klik:hover{
+	background-color: #EB8D01;
+}
+
+.text__span{
+	display: inline-block;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FBC609;
+	padding: 30px 100px;
+}
+
+
 
 
