@@ -40,7 +40,6 @@ body {
 .сontainer{
 	max-width: 624px;
 	margin: 0 auto;
-	border: 1px solid #000;
 	padding: 38px 0 50px 0;
 }
 
@@ -69,15 +68,26 @@ body {
 	margin-bottom: 30px;
 }
 
-/*
-.spisok li:last-child{
-	padding: 0;
+.klik{
+	display: block;
+	width: 346px;
+	height: 94px;
+	background: #088759;
+	border-radius: 80px;
+	margin: 0 auto;
+	margin-top: 65px;
+	
+}
+.klik:hover{
+	background-color: #2001eb;
 }
 
-.spisok li::before{
-	content: url(img/les.png);
-	border: 1px solid #000;
-	
+.text__span{
+	display: inline-block;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FBC609;
+	padding: 30px 100px;
 }
 
 
